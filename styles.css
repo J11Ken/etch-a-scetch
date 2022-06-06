@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+.grid { 
+  border-color: black;
+  border-width: 0.5px;
+  border-style: solid;
+}
+
+
+
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  height: 95vh;
+  width: 100vw; 
+  
+}
+
+#btn {
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 5vh;
+}
