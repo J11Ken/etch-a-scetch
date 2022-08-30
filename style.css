@@ -1,0 +1,86 @@
+* {background-color: rgb(228, 43, 43);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+h1 {
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  color: antiquewhite;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#canvas {
+  justify-content: center;
+  align-self: center;
+  display: flex;
+  flex-flow: row wrap;
+  border-color: black;
+  border-width: 2.5px;
+  border-style: solid;
+  width: 600px;
+  height: 600px;
+  box-sizing: content-box;
+  background-color: lightgray;
+  border-color: antiquewhite;
+}
+
+#container{
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  height: auto;
+  width: 600px;
+  margin-top: 30px;
+
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 275px;
+  height: 50px;
+  background-color: gold;
+  color: black;
+  font-size: large;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: antiquewhite;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#clear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 275px;
+  height: 50px;
+  background-color: gold;
+  color: black;
+  font-size: large;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: antiquewhite;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+ div.square {
+  background-color: lightgray;
+}
+
+div.squareH {
+  background-color: black;
+}
